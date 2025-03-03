@@ -1,0 +1,13 @@
+project_name: resnet50_hyperband
+model:
+  name: resnet50
+  params:
+    input_shape: [224, 224, 3]
+tuner:
+  name: hyperband
+  params:
+    max_epochs: 300
+    epochs: 100
+data:
+  batch_size: 32
+  target_size: [224, 224]

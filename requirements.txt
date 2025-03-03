@@ -1,0 +1,10 @@
+numpy
+pandas
+seaborn
+matplotlib
+opencv-python
+scikit-learn
+imbalanced-learn
+Pillow
+tensorflow[and-cuda]
+keras-tuner

@@ -1,0 +1,15 @@
+{
+    "num_dense_layers": 1,
+    "dense_units_0": 256,
+    "l2_reg": 0.0027025078266338454,
+    "dropout": 0.39180161090578813,
+    "optimizer": "adam",
+    "lr": 0.00021233198096917886,
+    "dense_units_1": 512,
+    "dense_units_2": 384,
+    "tuner/epochs": 100,
+    "tuner/initial_epoch": 34,
+    "tuner/bracket": 2,
+    "tuner/round": 2,
+    "tuner/trial_id": "0229"
+}

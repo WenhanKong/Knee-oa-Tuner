@@ -1,0 +1,12 @@
+model:
+  name: efficient_net_v2
+  params:
+    input_shape: [224, 224, 3]
+tuner:
+  name: bayesian
+  params:
+    max_trials: 15
+    epochs: 30
+data:
+  batch_size: 32
+  target_size: [224, 224]

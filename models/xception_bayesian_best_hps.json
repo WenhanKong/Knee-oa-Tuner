@@ -1,0 +1,10 @@
+{
+    "num_dense_layers": 3,
+    "dense_units_0": 128,
+    "l2_reg": 0.0022486071415089575,
+    "dropout": 0.40854538113899797,
+    "optimizer": "rmsprop",
+    "lr": 0.0003148792495880853,
+    "dense_units_1": 128,
+    "dense_units_2": 128
+}

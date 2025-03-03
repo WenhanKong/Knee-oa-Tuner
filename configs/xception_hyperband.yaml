@@ -1,0 +1,12 @@
+model:
+  name: xception
+  params:
+    input_shape: [224, 224, 3]
+tuner:
+  name: hyperband
+  params:
+    max_epochs: 100
+    epochs: 100
+data:
+  batch_size: 16
+  target_size: [224, 224]
